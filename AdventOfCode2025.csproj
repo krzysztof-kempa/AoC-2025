@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>AdventOfCode2025</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Day 10\**" />
+    <Compile Remove="Day 11\**" />
+    <Compile Remove="Day 12\**" />
+    <Compile Remove="Day 1\**" />
+    <Compile Remove="Day 2\**" />
+    <Compile Remove="Day 3\**" />
+    <Compile Remove="Day 4\**" />
+    <Compile Remove="Day 5\**" />
+    <Compile Remove="Day 6\**" />
+    <Compile Remove="Day 7\**" />
+    <Compile Remove="Day 8\**" />
+    <Compile Remove="Day 9\**" />
+    <EmbeddedResource Remove="Day 10\**" />
+    <EmbeddedResource Remove="Day 11\**" />
+    <EmbeddedResource Remove="Day 12\**" />
+    <EmbeddedResource Remove="Day 1\**" />
+    <EmbeddedResource Remove="Day 2\**" />
+    <EmbeddedResource Remove="Day 3\**" />
+    <EmbeddedResource Remove="Day 4\**" />
+    <EmbeddedResource Remove="Day 5\**" />
+    <EmbeddedResource Remove="Day 6\**" />
+    <EmbeddedResource Remove="Day 7\**" />
+    <EmbeddedResource Remove="Day 8\**" />
+    <EmbeddedResource Remove="Day 9\**" />
+    <None Remove="Day 10\**" />
+    <None Remove="Day 11\**" />
+    <None Remove="Day 12\**" />
+    <None Remove="Day 1\**" />
+    <None Remove="Day 2\**" />
+    <None Remove="Day 3\**" />
+    <None Remove="Day 4\**" />
+    <None Remove="Day 5\**" />
+    <None Remove="Day 6\**" />
+    <None Remove="Day 7\**" />
+    <None Remove="Day 8\**" />
+    <None Remove="Day 9\**" />
+  </ItemGroup>
+
+</Project>
